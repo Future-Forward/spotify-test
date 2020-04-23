@@ -41,9 +41,9 @@ npm run android
 npm run ios
 ```
 
-## 🎮 Demo
+## 🎮 Demo - <a href="https://raw.githubusercontent.com/Future-Forward/spotify-test/master/assets/app-release.apk" download>Download the demo app</a>
 
-<a href="https://raw.githubusercontent.com/Future-Forward/spotify-test/master/assets/app-release.apk" download>Click to download the demo app</a>
+
 
 <img src="https://raw.githubusercontent.com/Future-Forward/spotify-test/master/assets/demo.gif" width="180" height=360>
 
