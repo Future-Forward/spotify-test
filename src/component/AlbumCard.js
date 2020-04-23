@@ -16,7 +16,7 @@ const SIZE = width * 0.25;
 
 const Suggestion = React.memo(({ album: { name, images }, style, onPress }) => {
 
-  const albumImageURL = useMemo(() => get(last(images), 'url'), []);
+  const albumImageURL = useMemo(() => get(images, '[0].url'), []);
 
   return (
     <TouchableOpacity

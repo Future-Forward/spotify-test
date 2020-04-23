@@ -97,16 +97,21 @@ const TrackCard = React.memo(({ track, index }) => {
           {get(track, 'album.name', '')}
         </Text>
       </View>
-      <TouchableOpacity
-        onPress={onPlay}
-      >
-        <FA
-          style={{ padding: 8 }}
-          name={status.playing ? "pause-circle" : "play-circle"}
-          color="#fff"
-          size={24}
-        />
-      </TouchableOpacity>
+      {
+        !!preview_url && (
+
+          <TouchableOpacity
+            onPress={onPlay}
+          >
+            <FA
+              style={{ padding: 8 }}
+              name={status.playing ? "pause-circle" : "play-circle"}
+              color="#fff"
+              size={24}
+            />
+          </TouchableOpacity>
+        )
+      }
     </TouchableOpacity>
   );
 });

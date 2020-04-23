@@ -115,6 +115,8 @@ const HomePage = React.memo(({ navigation: { push } }) => {
         renderItem={renderItem}
         onEndReachedThreshold={0.5}
         onEndReached={onPaginate}
+        keyboardDismissMode="interactive"
+        keyboardShouldPersistTaps="handled"
       />
     </View>
   )
