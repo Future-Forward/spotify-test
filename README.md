@@ -12,9 +12,9 @@
 Running the project for the first time
 
 ```
-git clone https://gitlab.com/mesolutions/rotterdamRN.git
+https://github.com/Future-Forward/spotify-test.git
 
-cd 
+cd spotify-test
 
 // If your using NVM then select proper node version, there might be issues otherwise
 nvm use 12.16.1
