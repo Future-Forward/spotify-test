@@ -1,5 +1,3 @@
-![build](https://github.com/Future-Forward/spotify-test/workflows/build/badge.svg)
-
 # Spotify Test
 
 ## 📋 Introduction
