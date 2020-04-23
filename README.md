@@ -43,7 +43,7 @@ npm run ios
 
 ## 🎮 Demo
 
-<img src="https://raw.githubusercontent.com/Future-Forward/spotify-test/master/assets/demo.gif" width="288" height=576>
+<img src="https://raw.githubusercontent.com/Future-Forward/spotify-test/master/assets/demo.gif" width="180" height=360>
 
 ## 🔥 Known issues
 
